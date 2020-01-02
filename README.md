@@ -35,6 +35,11 @@ ausdrucken und für alle sichtbar an die Pinnwand in der Klasse aushängen.  In 
 Datenschutz ein Menschenrecht ist, und seine Wahrung eine ethische Pflicht; nicht lediglich die Erfüllung lästiger
 gesetzlicher Vorschriften.  Vielen Dank!
 
+**Obacht:** In der Dokumentation dieser Software verwenden wir die Domain `schule.at` als Platzhalter für die Domain
+Ihrer Schule.  Die Tatsache, dass [`schule.at`](https://www.schule.at/) zufällig eine tatsächlich existierende Domain
+ist, bitten wir großzügig zu ignorieren.  Ebenso ist "Herr Lehrer Lämpel" trotz mehrfacher Erwähnung in keiner Weise mit
+dieser Software in Verbindung zu bringen.
+
 
 ## Übersicht und Design-Entscheidungen
 
