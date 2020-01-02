@@ -1,6 +1,23 @@
 #! /bin/false
 #! -*- coding:utf-8; mode:conf-toml; -*-
 
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+    RewriteCond %{HTTPS} off
+    RewriteRule .* https://%{HTTP_HOST}%{REQUEST_URI} [R,L]
+</IfModule>
+
+<If "%{HTTPS} != 'on'">
+    Error "Only HTTPS transport, please!"
+</If>
+<Else>
+    Header set Strict-Transport-Security "max-age=31536000"
+</Else>
+
+Options -ExecCGI -Indexes
+AddDefaultCharset utf-8
+
 AuthType Basic
 AuthName "Bitte melden Sie sich mit Ihrer Klasse als Benutzernamen und Ihrem Klassenpasswort an."
 AuthBasicProvider file
