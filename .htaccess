@@ -1,0 +1,15 @@
+#! /bin/false
+#! -*- coding:utf-8; mode:conf-toml; -*-
+
+AuthType Basic
+AuthName "Bitte melden Sie sich mit Ihrer Klasse als Benutzernamen und Ihrem Klassenpasswort an."
+AuthBasicProvider file
+AuthUserFile "/the/path/to/.htpasswd"
+Require valid-user
+
+Order deny,allow
+Deny from all
+
+<FilesMatch "^(index\.php|notenservice\.css|notenservice\.js)?$">
+    Allow from valid-user
+</FilesMatch>

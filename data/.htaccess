@@ -1,0 +1,5 @@
+#! /bin/false
+#! -*- coding:utf-8; mode:conf-toml; -*-
+
+Order deny,allow
+Deny from all

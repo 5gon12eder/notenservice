@@ -1,0 +1,36 @@
+// -*- coding:utf-8; mode:javascript; -*-
+
+// Sie können in dieser JSON Datei minimalistische Kommentare verwenden.
+// Unterstützt werden zeilenweise Kommentare, die mit '//' beginnen.  Sofern
+// dem '//' allenfalls White-Space vorangestellt ist, wird die komplette Zeile
+// ignoriert.  Alle anderen Vorkommnisse von '//' haben keine besondere
+// Bedeutung.  Bitte beachten Sie, dass Sie in JSON kein Komma nach dem letzten
+// Element einer Aufzählung setzen dürfen.
+
+{
+    "data_directory" : "data",
+    "daily_limit" : 5,
+    "logfile" : "data/accesslog.sqlite",
+
+    "teacher" : {
+        "user" : null,
+        "name" : "Schulrat Lämpel",
+        "email" : "laempel@schule.at"
+    },
+
+    "service" : {
+        "url" : "https://home.schule.at/~user/notenservice/",
+        "email" : "noreply@schule.at"
+    },
+
+    "klassen" : [ "1a", "42eur" ],
+
+    "faecher" : {
+        "biologie" : "Biologie",
+        "chemie" : "Chemie",
+        "pause" : "Mittagspause",
+        "physik" : "Physik"
+    },
+
+    "school_privacy_policy_url" : "https://schule.at/todo.aspx"
+}

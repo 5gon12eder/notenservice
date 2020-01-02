@@ -1,0 +1,13 @@
+#! /bin/false
+#! -*- coding:utf-8; mode:conf-toml; -*-
+
+*.sqlite
+*.sqlite3
+*.tar.gz
+*.zip
+*~
+/README.html
+/data/*.csv
+/fonts/*.woff2
+/my-*
+/notenservice/

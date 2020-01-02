@@ -1,0 +1,102 @@
+@charset 'UTF-8';
+
+@import 'fonts/fonts.css';
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+tt, code, pre {
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: inherit;
+}
+
+a, a:link, a:visited {
+    text-decoration: inherit;
+    color: #3465a4;
+}
+
+a:hover, a:active {
+    text-decoration: underline;
+    color: #729fcf;
+}
+
+form {
+    font-size: 1em;
+    margin: 3ex 0em 3ex;
+}
+
+form ul.controls {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+form ul li.ctrl {
+    padding: 0;
+    margin: 1ex;
+    display: inline-block;
+    position: relative;
+}
+
+form li.ctrl label {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0;
+    padding: 0.5ex;
+    font-size: 70%;
+    transform: translate(0, -100%);
+    color: #c4a000;
+}
+
+input, select, button {
+    font-size: inherit;
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0.6ex 0.5em;
+    border: 1px solid #edd400;
+    background: #fce94f;
+    border-radius: 0;
+    color: inherit;
+    min-width: 8em;
+}
+
+input::placeholder, select:invalid {
+    color: #c4a000;
+    opacity: 1;
+}
+
+select.fancy {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.fancy-select-arrow {
+    pointer-events: none;
+    color: #c4a000;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    right: 0;
+    top: 50%;
+    transform: translate(-0.5em, -55%);
+    pointer-events: none;
+}
+
+.success, .failure {
+    font-weight: bold;
+}
+
+.success {
+    color: #73d216;
+}
+
+.failure {
+    color: #cc0000;
+}
+
+#more-info {
+    margin-top: 5ex;
+}
