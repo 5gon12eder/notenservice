@@ -113,6 +113,13 @@ $ns->performAction(TRUE);
           Für weitere Fragen zum Datenschutz konsultieren Sie bitte die aktuell gültige Fassung der allgemeinen
           <?php $ns->yankPrivacyPolicyLink("Datenschutzerklärung"); ?> Ihrer Schule.
         </li>
+        <li>
+          Dieser Service wird von
+          <a rel="external nofollow" href="https://www.gnu.org/philosophy/free-sw.de.html">Freier Software</a>
+          betrieben.  Sie können den Quellcode und weitere Informationen
+          <a rel="external nofollow" href="https://github.com/5gon12eder/notenservice">hier</a>
+          finden.
+        </li>
       </ol>
     </div>
   </body>
